@@ -1,3 +1,2 @@
 
-
-https://dzshopmokrani.000webhostapp.com/
+https://formulaire-jquery-html-css.netlify.app/ 
