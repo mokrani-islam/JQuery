@@ -1,0 +1,288 @@
+p{
+
+  color: green;
+  ;
+/* background-color:blue; */
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+
+.nav_bar{
+  /*background: red;
+  height: 100px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  */
+
+display: flex; 
+justify-content: space-between;
+align-items: center;
+box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,.1);
+width: 100%;
+height: 70px;
+font-family: "Poppins",sans-serif;
+padding: 0;
+margin-bottom: 0;
+
+}
+
+#cardContainer {
+display: flex;
+justify-content: center;
+flex-wrap: wrap; 
+ 
+  
+}
+
+
+.small-image {
+  max-width: 5%;
+
+  height: auto;
+}
+
+
+
+.nav_bar a i{
+
+  color:green;
+  font-size :25px;
+  cursor: pointer;
+  }
+
+.spa{
+/*color: #63ffc2;*/
+color : green
+}
+.spa1{
+color: green;
+}
+
+.menu{
+margin-left:100%;
+
+}
+.nav_bar a{
+font-size :17px;
+text-decoration:none;
+color:green;
+cursor: pointer;
+}    
+
+
+.cote a{
+padding-right: 50px;
+}
+
+.cote i{
+  color: green;
+  }
+
+#momo{
+  padding-left: 50px;  
+}
+
+.menu-deroulant{
+  margin : 200PX 0 0 0;
+}
+.tableJeux{
+  background-color: rgb(255, 111, 97);
+  height: 100PX;
+  width: 250PX;
+  margin: auto;
+  text-align: center;
+  border-radius:  20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+#Tache{
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  padding : 10PX; 
+}
+
+.messagerie{
+
+  width: 20%;
+  height: 100%;
+ /* background-color: red; */
+}
+
+.main{
+ /* background-color: bldcsue; */
+  display: flex; 
+  justify-content: space-between;
+  align-items: flex-start;;
+  width: 100%;
+  height:100%;
+  
+}
+img{
+  margin-bottom: 10px;
+  margin-left: 5PX;
+  max-width: 100%;
+  
+ 
+}
+
+
+
+.container {
+  width: 100%;
+  font-family: 'poppins', sans-serif;
+  display: flex;
+  flex-direction: column; /* Permet d'empiler les éléments verticalement */
+  align-items: center; /* Centre les éléments horizontalement */
+}
+
+.container form {
+  width: 100%;
+  max-width: 400px; /* Ajustez la largeur maximale selon vos préférences */
+  margin-top: -20px; /* Ajoute un espace entre le paragraphe et le formulaire */
+}
+
+p {
+  text-align: center;
+  margin-top: 10px;
+  font-size:19px;
+  font-family: Poppins, sans-serif;
+  margin-bottom: 0;
+}
+
+
+form .detail .input-box{
+  /*margin: 20px 0 12px 20px;*/
+  margin-top: 20px;
+  width: 100%;
+  
+/*width: calc(100%/2-20px);*/
+
+
+}
+
+select{
+
+height: 50px;
+width: 100%;
+outline: none;
+border-radius: 5px;
+padding-left: 20px;
+border: 1PX solid #ccc;
+font-size: 15px;
+}
+
+.detail .input-box input{
+
+  height: 40px;
+  width: 95%;
+  outline: none;
+  border-radius: 5px;
+ padding-left: 15px;
+ border: 1PX solid #ccc;
+ font-size: 15px;
+}
+
+.detal .input-box .details{
+font-weight: 500;
+/*margin-bottom: 5px;*/
+
+
+}
+
+.detail .input-box input:focus,.detail .input-box input:valid{
+border-color: #63ffc2;
+
+
+}
+
+
+
+
+form .button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form .button button{
+ 
+    width: 50%;
+    height: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    /*background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);*/
+    background:green;
+    background-size: 200%;
+    font-size: 1.2rem;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    
+    margin: 1rem 0;
+    cursor: pointer;
+    transition: .5s;
+
+}
+
+
+#menu {
+  display: none;
+  position: absolute;
+  text-align: center;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+  width: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#menu button {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#menu button:hover {
+  background-color: #ddd;
+}
+
+.menu-container:hover #menu {
+  display: block;
+}
+
+.btn_1{
+
+  width: 50%;
+  height: 50px;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  /*background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);*/
+  background:green;
+  background-size: 200%;
+  font-size: 1.2rem;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  
+  margin: 1rem 0;
+  cursor: pointer;
+  transition: .5s;
+
+
+}

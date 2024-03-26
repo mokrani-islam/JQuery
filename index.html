@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link href="style.css" rel="stylesheet" >
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+   <title>Formulaire de Notes</title>
+
+</head>
+<body>
+
+<div class="nav_bar">
+     <!-- logo PPoker-->
+    <a href="#" id="logoMenu"><i class="fa-solid fa-diamond fa-bounce" style="color: #1962e1;" ></i> Calculer<span class='spa'> la Mo</span >ye<span class='spa1'>nne</span></a>
+     
+    
+    <div class="cote">
+
+       <!--<i class="fa-solid fa-p"></i>--><i class="fa-solid fa-house-lock"></i>
+     
+    </div>
+
+</div>
+
+   <p style="text-align: center;  margin-top: 10px; font-size: 20px; font-family:Poppins,sans-serif; margin-bottom: 0;"  > Remplir le formulaire</p>
+ 
+<div class="container">
+   
+    <form id="monFormulaire">
+    <div class="detail">
+    
+    <div class="input-box">
+    <span class="details">
+      Nom 
+    </span>
+    <input type="text" placeholder="Entrez le nom " required name="Nom" id="Nom">
+    
+    </div>
+    
+    <div class="input-box">
+      <span class="details">
+        Prénom
+      </span>
+      <input type="text" placeholder="Entrez prénom" required name="Prenom" id="Prenom">
+      
+      </div>
+      <div class="input-box">
+        <span class="details">
+          Note 1
+        </span>
+        <input type="number" placeholder="Entrez votre première note" required name="Note1" id="Note1" min="0" max="20">
+        
+        </div>
+
+
+
+        <div class="input-box">
+          <span class="details">
+            Note 2
+          </span>
+          <input type="number" placeholder="Entrer votre deuxième note " required name="Note2" id="Note2" min="0" max="20">
+          
+        </div>  
+    
+    <div class="button">
+    
+    <button type="submit" >  valider </button>
+    </div>
+    </div>
+    </form> 
+    <div id="result"></div>   
+    
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script src="script.js"></script>
+
+<script>
+  // Ajout d'un gestionnaire d'événement au clic sur le logo du menu
+  document.getElementById("logoMenu").addEventListener("click", function() {
+      // Rechargement de la page
+      location.reload();
+  });
+</script>
+
+
+</body>
+</html>
